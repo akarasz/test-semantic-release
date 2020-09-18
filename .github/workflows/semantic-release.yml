@@ -1,8 +1,8 @@
-name: Semantic Release
+name: Release
 on: push
 jobs:
   add-tag:
-    name: Add Tag
+    name: Versioning
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
