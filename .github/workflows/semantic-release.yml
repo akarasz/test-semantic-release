@@ -1,8 +1,8 @@
 name: Semantic Release
 on: push
 jobs:
-  my-job:
-    name: Add Semantic Release Tag
+  add-tag:
+    name: Add Tag
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
